@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico&display=swap');
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+.title {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: darkgrey;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.navbar {
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+/* ----------------------- List Page ----------------------- */
+
+.card-cliente {  
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  
+  margin-bottom: 20px;
+  padding: 20px;
+  
+  background-color:rgba(255, 255, 255, 0.50);
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,.08);
+  
+  max-width: 600px;
+}
+
+.title-1 {
+  font-size: 28px;
+}
+
+.title-2 {
+  font-size: 20px;
+}
+
+.underline-title-2 {
+  margin: 5px 0px 5px 0px;
+  padding: 0px;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.text {
+  margin: 15px 0px 0px 0px;
+}
+
+.container-1 {
+  display: flex;
+}
+
+.container-1-left {
+  justify-content: center;
+  align-content: center;
+}
+
+.container-1-right {
+  margin-left: 30px;
+}
+
+.card-img-cliente {
+  margin: auto;
+  border-radius: 50%;
+}
+
+.card-img-cliente:hover {
+  opacity: 90%;
+}
+
+.cliente-nome, .cliente-cpf {
+  margin: 10px 0px 10px 0px;
+}
+
+.container-2 {
+  text-align: center;
+  align-items: left;
+}
+
+.cliente-endereco {
+  text-align: left;
+}
+
+.cliente-endereco-itens {
+  padding: 5px;
+  margin: 5px;
+}
+
+.container-3 {
+  text-align: left;
+}
+
+.enderecos-title, .telefones-title, .emails-title {
+  text-align: center;
+}
+
+.container-4 {
+  text-align: left;
+}
+
+.container-5 {
+ text-align: center;
+}
+
+.container-6 {
+  text-align: center;
+} 
+
+.btn-editar {
+  margin-right: 10px;
+}
+
+.btn-deletar {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+/* ----------------------- Create Page ----------------------- */
+
+.create-page-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.create-forms, .edit-forms, .login-form {
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  background-color: #e9ecef;
+  margin: 10px 0px 10px 0px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.fa {
+  margin: 5px;
+}
+
+.validar {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+.endereco-form {
+  height: auto;
+  width: auto;
+}
+
+.endereco-enum {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.telefone-form {
+  height: auto;
+}
+
+.cliente-telefone-itens {
+  margin: 15px 0px 15px 0px;
+}
+
+.tipo {
+  margin-bottom: 10px;
+}
+
+.email-form {
+  height: auto;
+}
+
+.criar-btn-form, .edit-btn-form {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+}
+
+label {
+  margin: 10px 0px 10px 0px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  margin-bottom: 20px;
+}
+
+.alert {
+  max-width: 600px;
+}
+
+/* ----------------------- Edit Page ----------------------- */
+
+.edit-title {
+  margin: 20px 0px 20px 0px;
+}
